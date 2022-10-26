@@ -1,0 +1,24 @@
+# Reusable Scripts
+
+This repo consists of some of my daily used script, including `.py` and `.sh` for personal use.
+
+### 1. `copy_boilerplate.py`
+
+Usage:
+
+```shell
+python copy_boilerplate.py "<DIRNAME>"
+```
+
+This script is used to copy **LaTeX** boilerplate files into a new directory, unlike javascript, python, etc, for LaTeX writing, there is no scaffolding tools to use. In order to avoiding manually `<C-c>` and `<C-v>` every directory and rename endlessly, I write this small script.
+
+This script still lacks many of the key features, I will add these later. `PR` is always welcome.
+
+ToDo:
+
+- [ ] add `.gitignore`-like feature, avoid copying `.DS_STORE` and other meaningless files or dirs.
+- [ ] add progress bar to show progress when copying large files. (A potential tool: `rich.progress`)
+
+# License
+
+Most of my code is under MIT License, therefore, feel free to use or distribute them.
