@@ -21,13 +21,19 @@ ToDo:
 
 ### 2. upgrade.sh
 
-Usage
+Manually keep every packages up-to-date is quiet annoying, that's the main reason I write this script.
+
+Usage:
 
 ```shell
 sudo sh upgrade.sh
 ```
 
-> You can also paste this script to your apple shortcuts, but it doesn't work on my machine.
+> You can also paste this script to your apple shortcuts, but it doesn't work on my machine. I use a soft symbolic link as shortcut, and manually run the command.
+
+```shell
+ln -s <DOWNLOAD_PATH> <TARGET_FILE_NAME>
+```
 
 This will upgrade your packages installed by
 
