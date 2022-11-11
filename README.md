@@ -19,13 +19,15 @@ ToDo:
 - [ ] add `.gitignore`-like feature, avoid copying `.DS_STORE` and other meaningless files or dirs.
 - [ ] add progress bar to show progress when copying large files. (A potential tool: `rich.progress`)
 
-### upgrade.sh
+### 2. upgrade.sh
 
 Usage
 
 ```shell
 sudo sh upgrade.sh
 ```
+
+> You can also paste this script to your apple shortcuts, but it doesn't work on my machine.
 
 This will upgrade your packages installed by
 
