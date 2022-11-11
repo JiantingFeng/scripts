@@ -19,6 +19,28 @@ ToDo:
 - [ ] add `.gitignore`-like feature, avoid copying `.DS_STORE` and other meaningless files or dirs.
 - [ ] add progress bar to show progress when copying large files. (A potential tool: `rich.progress`)
 
+### upgrade.sh
+
+Usage
+
+```shell
+sudo sh upgrade.sh
+```
+
+This will upgrade your packages installed by
+
+1. Homebrew
+2. pip
+3. npm
+4. yarn
+5. pnpm
+6. vcpkg
+7. Packer (for NeoVim plugins)
+
+and sync your dotfiles under `~/.config` via git.
+
+Also use mackup to backup your mac.
+
 # License
 
 Most of my code is under MIT License, therefore, feel free to use or distribute them.
